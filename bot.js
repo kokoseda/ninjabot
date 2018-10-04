@@ -83,9 +83,9 @@ client.on("message", message => {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .addField("『WestCostBoT』 『اسم البوت』", true)
+      .addField("『NinjaBot』 『اسم البوت』", true)
       
-      .addField("『مصمم البوت M7MEDYT#0934』", true)
+      .addField("『مصمم البوت Fr3on Gamer#9338』", true)
       
       .addField("『+help^』😘『اذا تبي جميع الاوامر مع اوامر اضافية』😵", true)
       
@@ -402,7 +402,7 @@ client.on("message", message => {
 💎『الدعم الفني والمساعدة』💎
 +invite | القسم الاول لي اضافه البوت 
 +support| القسم الثاني  الدعم الفني و المساعدة
-قسم الثالث مصمم البوت M7MEDYT#0934
+قسم الثالث مصمم البوت Fr3on Gamer@9338
 `)
 
 
@@ -810,7 +810,7 @@ client.on("message", message => {
 client.on('message', message => {
   if (true) {
 if (message.content === '+support') {
-      message.author.send(' |https://discord.gg/aPNsVK4| لـ أي استفسار').catch(e => console.log(e.stack));
+      message.author.send(' |https://discord.gg/QfB8p2S| لـ أي استفسار').catch(e => console.log(e.stack));
 
     }
    } 
@@ -835,7 +835,7 @@ client.on('message', message => {
 client.on('message', message => {
   if (true) {
 if (message.content === '+invite') {
-      message.author.send(' رابط البوت |  https://discordapp.com/api/oauth2/authorize?client_id=486971602924339208&permissions=8&scope=bot ').catch(e => console.log(e.stack));
+      message.author.send(' رابط البوت | https://discordapp.com/api/oauth2/authorize?client_id=435210253710262273&permissions=8&scope=bot ').catch(e => console.log(e.stack));
 
     }
    } 
@@ -860,7 +860,7 @@ client.on('message', message => {
             if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('!bc-users')){
- if(!message.author.id === 'اي دي صاحب البوت') return;
+ if(!message.author.id === 'ا31413503102917019') return;
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -1270,7 +1270,7 @@ client.on("ready", () => {
             name : "Voice Online : [" + ss+ "]"
         })
     });
-    client.user.setGame("WestCostBoT +help شكرا ", "https://twitch.tv/©");
+    client.user.setGame("NinjaBot +help شكرا ", "https://twitch.tv/kokoseda");
 });
 
 
