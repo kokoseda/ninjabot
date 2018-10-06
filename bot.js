@@ -1262,15 +1262,7 @@ client.on('voiceStateUpdate', (o,n) => {
         })
     }
 })
-client.on("ready", () => {
-    client.guilds.get("455197670169116682").members.forEach(m => {
-        if (m.voiceChannel) {
-            ss+=1
-        };
-        client.channels.get("495599835630534658").edit({
-            name : "Voice Online : [" + ss+ "]"
-        })
-    });
+
     client.user.setGame("NinjaBot +help شكرا ", "https://twitch.tv/kokoseda");
 });
 
